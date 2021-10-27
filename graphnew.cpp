@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
+#define dd double
 void addedge(vector<pair<ll,ll>> adj[],ll u,ll v,ll wt)
 {
 	adj[u].push_back(make_pair(v,wt));
